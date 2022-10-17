@@ -1,0 +1,208 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 730714100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on techfios Login page",
+            "match": {
+              "location": "StepDefinition.user_is_on_techfios_Login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3306418400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "set sky blue background",
+        "description": "",
+        "id": "background-color-validation;set-sky-blue-background",
+        "after": [
+          {
+            "result": {
+              "duration": 858637300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 508262500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "StepDefinition.set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2082254000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the button",
+            "match": {
+              "location": "StepDefinition.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 398579600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "StepDefinition.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 686626400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on techfios Login page",
+            "match": {
+              "location": "StepDefinition.user_is_on_techfios_Login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1728213100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "set sky white background",
+        "description": "",
+        "id": "background-color-validation;set-sky-white-background",
+        "after": [
+          {
+            "result": {
+              "duration": 834697700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 193797400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Set SkyWhite Background button exists",
+            "match": {
+              "location": "StepDefinition.set_SkyWhite_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2093197800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on the sky white button",
+            "match": {
+              "location": "StepDefinition.i_click_on_the_sky_white_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 340493200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the background color will change to sky white",
+            "match": {
+              "location": "StepDefinition.the_background_color_will_change_to_sky_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Background Color Validation",
+    "description": "",
+    "id": "background-color-validation",
+    "keyword": "Feature",
+    "uri": "C:/Users/diyor/cucumberAutomation/Automationcucumber/src/test/java/features/Techfios.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BothScenarios"
+      }
+    ]
+  }
+]
